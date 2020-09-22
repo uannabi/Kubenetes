@@ -4,14 +4,14 @@ metadata:
   name: homepage-dev
   labels:
     env: development
-    dev-lead: karthik
+    dev-lead: zahid
     team: web
     application_type: ui
     release-version: "12.0"
 spec:
   containers:
   - name: helloworld
-    image: karthequian/helloworld:latest
+    image: uannabi/helloworld:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -20,13 +20,13 @@ metadata:
   labels:
     env: staging
     team: web
-    dev-lead: karthik
+    dev-lead: zahid 
     application_type: ui
     release-version: "12.0"
 spec:
   containers:
   - name: helloworld
-    image: karthequian/helloworld:latest
+    image: uannabi/helloworld:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -35,13 +35,13 @@ metadata:
   labels:
     env: production
     team: web
-    dev-lead: karthik
+    dev-lead: zahid
     application_type: ui
     release-version: "12.0"
 spec:
   containers:
   - name: helloworld
-    image: karthequian/helloworld:latest
+    image: uannabi/helloworld:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -56,7 +56,7 @@ metadata:
 spec:
   containers:
   - name: login
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -71,7 +71,7 @@ metadata:
 spec:
   containers:
   - name: login
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -86,7 +86,7 @@ metadata:
 spec:
   containers:
   - name: login
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -101,7 +101,7 @@ metadata:
 spec:
   containers:
   - name: cart
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -116,7 +116,7 @@ metadata:
 spec:
   containers:
   - name: cart
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -131,7 +131,7 @@ metadata:
 spec:
   containers:
   - name: cart
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 
 apiVersion: v1
@@ -147,7 +147,7 @@ metadata:
 spec:
   containers:
   - name: social
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -162,7 +162,7 @@ metadata:
 spec:
   containers:
   - name: social
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -177,7 +177,7 @@ metadata:
 spec:
   containers:
   - name: social
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -192,7 +192,7 @@ metadata:
 spec:
   containers:
   - name: catalog
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -207,7 +207,7 @@ metadata:
 spec:
   containers:
   - name: catalog
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -222,7 +222,7 @@ metadata:
 spec:
   containers:
   - name: catalog
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -237,7 +237,7 @@ metadata:
 spec:
   containers:
   - name: quote
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -252,7 +252,7 @@ metadata:
 spec:
   containers:
   - name: quote
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -267,7 +267,7 @@ metadata:
 spec:
   containers:
   - name: quote
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -282,7 +282,7 @@ metadata:
 spec:
   containers:
   - name: ordering
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -297,7 +297,7 @@ metadata:
 spec:
   containers:
   - name: ordering
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
 apiVersion: v1
 kind: Pod
@@ -312,5 +312,5 @@ metadata:
 spec:
   containers:
   - name: ordering
-    image: karthequian/ruby:latest
+    image: uannabi/ruby:latest
 ---
